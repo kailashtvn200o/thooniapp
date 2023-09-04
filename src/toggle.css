@@ -2,7 +2,6 @@
   text-align: center;
 }
 /*  Toggle Switch  */
-
 .toggleSwitch span span {
 display: none;
 }  
@@ -101,13 +100,10 @@ margin: 0;
 left:auto;
 right:0;
 opacity: 1;
-color: white !important; 
+color: white  ; 
 margin: 0;
   width: 50%;
 }
-
-
-
 .toggleSwitch > span:before {
 content: '';
 display: block;
@@ -116,8 +112,6 @@ height: 100%;
 position: absolute;
 left: 0;
 top: -2px;
-/* background-color: #fafafa;
-border: 1px solid #ccc; */
 border-radius: 30px;
 -webkit-transition: all 0.2s ease-out;
 -moz-transition: all 0.2s ease-out;
@@ -128,15 +122,14 @@ left: calc(50% - 3px);
 }
 .toggleSwitch input:checked ~ span:before {
 border-color: #0097D1;
-/* box-shadow: inset 0 0 0 30px #0097D1; */
 }
 .toggleSwitch input:checked ~ span span:first-of-type {
 left:0;
 color:black !important;
 }
 .toggleSwitch input:checked ~ span span:last-of-type {
- opacity: 1;
-color:black;
+ 
+color:white !important;
 }
 /* Switch Sizes */
 .toggleSwitch.large {
@@ -217,12 +210,10 @@ left: 50%;
     text-align: center;
     margin-top: 47px;
   }
-  /*  Toggle Switch  */
-  
+  /*  Toggle Switch  */ 
   .toggleSwitch span span {
   display: none;
-  }  
-  
+  }   
   .toggleSwitch {
   display: inline-block;
   height: 18px;
@@ -321,9 +312,6 @@ left: 50%;
   margin: 0;
     width: 50%;
   }
-  
-  
-  
   .toggleSwitch > span:before {
   content: '';
   display: block;
@@ -332,8 +320,6 @@ left: 50%;
   position: absolute;
   left: 0;
   top: -2px;
-  /* background-color: #fafafa;
-  border: 1px solid #ccc; */
   border-radius: 30px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -344,7 +330,6 @@ left: 50%;
   }
   .toggleSwitch input:checked ~ span:before {
   border-color: #0097D1;
-  /* box-shadow: inset 0 0 0 30px #0097D1; */
   }
   .toggleSwitch input:checked ~ span span:first-of-type {
   left:0;
@@ -429,5 +414,3 @@ left: 50%;
     font-style: revert;
   }
 }
-
-/*  End Toggle Switch  */
